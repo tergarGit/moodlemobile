@@ -88,13 +88,13 @@
     <gap:plugin name="org.apache.cordova.statusbar" source="npm" />
 
     <gap:plugin name="com.phonegap.plugins.pushplugin" source="npm" />
-    <gap:plugin name="net.tunts.webintent" />
+    <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
     <gap:plugin name="nl.x-services.plugins.launchmyapp">
         <param name="URL_SCHEME" value="tergarversion" />
     </gap:plugin>
     <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
     <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.5" />
-    <gap:plugin name="ch.ti8m.documenthandler" version="0.2.1" />
+    <gap:plugin name="ch.ti8m.documenthandler"  spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
     <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="false" />
