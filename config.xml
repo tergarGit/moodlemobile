@@ -22,7 +22,7 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
 
-    <access origin="*" />
+    <access origin="http://aprendizaje.tergarmexico.org" />
     <access origin="tel:*" launch-external="yes" />
     <access origin="mailto:*" launch-external="yes" />
     <access origin="geo:*" launch-external="yes" />
@@ -512,7 +512,5 @@
             </dict>
         </array>
     </gap:config-file>
-
-    <access origin="*" />
 
 </widget>
