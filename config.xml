@@ -87,7 +87,7 @@
     <gap:plugin name="org.apache.cordova.splashscreen" source="npm" />
     <gap:plugin name="org.apache.cordova.statusbar" source="npm" />
 
-    <gap:plugin name="com.phonegap.plugins.pushplugin" source="npm" />
+    <gap:plugin name="cordova-plugin-pushplugin" source="npm" />
     <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
         <param name="URL_SCHEME" value="tergarversion" />
